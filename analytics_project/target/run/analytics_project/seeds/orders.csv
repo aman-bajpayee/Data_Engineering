@@ -1,0 +1,13 @@
+
+    
+    
+    
+    create table "dev"."main"."orders" ("order_id" integer,"customer_id" integer,"customer_city" text,"order_date" date,"amount" integer,"f" boolean)
+  ;
+    -- dbt seed --
+    
+          COPY "dev"."main"."orders" FROM 'C:\Users\aman.deloitte\analytics_project\seeds\orders.csv' (FORMAT CSV, HEADER TRUE, DELIMITER ',')
+        
+
+;
+  

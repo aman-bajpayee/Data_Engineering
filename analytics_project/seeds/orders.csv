@@ -1,0 +1,5 @@
+﻿order_id,customer_id,customer_city,order_date,amount,
+1,101,Nagpur,2026-02-10,200,FALSE
+2,102,Mumbai,2026-02-11,350,FALSE
+3,101,Bangalore,2026-02-12,150,FALSE
+4,103,Pune,2026-02-13,500,FALSE

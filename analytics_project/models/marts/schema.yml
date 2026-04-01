@@ -1,0 +1,12 @@
+models:
+  - name: fact_orders
+    description: "Incremental fact table capturing all order transactions"
+    columns:
+      - name: order_id
+        description: "Unique identifier for each order"
+        tests:
+          - not_null
+          - unique
+
+  - name: dim_customer
+    description: "Customer dimension with SCD Type-2 history"

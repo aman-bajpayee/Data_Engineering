@@ -1,0 +1,5 @@
+order_id,customer_id,customer_city,product_id,product_name,category,order_date,amount
+1,101,Nagpur,201,Phone,Electronics,2024-01-01,200
+2,102,Mumbai,202,Shoes,Fashion,2024-01-01,350
+3,101,Nagpur,203,Laptop,Electronics,2024-01-02,150
+4,103,Pune,204,T-shirt,Fashion,2024-01-02,500
